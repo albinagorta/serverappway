@@ -3,22 +3,49 @@
     {
       "id": 1,
       "nombre": "Categorias",
-      "ruta": "/categorias"
+      "ruta": "/dashboard/categorias",
+      "rol_id": 1
     },
     {
       "id": 2,
       "nombre": "Productos",
-      "ruta": "/productos"
+      "ruta": "/dashboard/productos",
+      "rol_id": 1
     },
     {
       "id": 3,
       "nombre": "Clientes",
-      "ruta": "/clientes"
+      "ruta": "/dashboard/clientes",
+      "rol_id": 1
     },
     {
       "id": 4,
       "nombre": "Usuarios",
-      "ruta": "/usuarios"
+      "ruta": "/dashboard/usuarios",
+      "rol_id": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Roles",
+      "ruta": "/dashboard/roles",
+      "rol_id": 1
+    }
+  ],
+  "roles": [
+    {
+      "nombre": "Rol 1",
+      "in_estado": "0",
+      "id": 1
+    },
+    {
+      "nombre": "rol 2",
+      "in_estado": "1",
+      "id": 2
+    },
+    {
+      "nombre": "rol 3",
+      "in_estado": "1",
+      "id": 3
     }
   ],
   "usuarios": [
@@ -41,57 +68,60 @@
   ],
   "productos": [
     {
-      "nombre": "Angel Albinagorta",
+      "nombre": "pro 1",
       "stock": 3,
-      "precio": 0.02,
+      "precio": 0.2,
       "in_estado": "1",
-      "id_categoria": 3,
+      "id_categoria": 1,
       "id": 2
     },
     {
-      "nombre": "Pedro",
+      "nombre": "pro 2",
       "stock": 20,
-      "precio": 20,
+      "precio": 2038823.904,
+      "in_estado": "1",
+      "id_categoria": 2,
+      "id": 3
+    },
+    {
+      "nombre": "pro 3",
       "in_estado": "1",
       "id_categoria": 4,
-      "id": 3
+      "stock": 87,
+      "precio": 87,
+      "id": 4
     }
   ],
   "categorias": [
     {
-      "nombre": "Pedro 1",
+      "nombre": "cate 1",
       "in_estado": "0",
       "id": 1
     },
     {
-      "nombre": "Angel Albinagorta",
+      "nombre": "cate 2",
       "in_estado": "1",
       "id": 2
     },
     {
-      "nombre": "GOTRON GROUP (HK) CO. LIMITED",
-      "in_estado": "0",
-      "id": 3
-    },
-    {
-      "nombre": "Luis Albinagorta",
+      "nombre": "cate 3",
       "in_estado": "1",
       "id": 4
     },
     {
-      "nombre": "Angelles",
-      "in_estado": "0",
+      "nombre": "cate 4",
+      "in_estado": "1",
+      "id": 5
+    },
+    {
+      "nombre": "cate 5",
+      "in_estado": "1",
       "id": 6
     },
     {
-      "nombre": "juan uno dos",
-      "in_estado": "0",
-      "id": 7
-    },
-    {
-      "nombre": "Angel Albinagorta",
+      "nombre": "cate 6",
       "in_estado": "1",
-      "id": 8
+      "id": 7
     }
   ],
   "clientes": [
@@ -110,6 +140,14 @@
       "direccion": "LIMA",
       "celular": "123456789",
       "id": 3
+    },
+    {
+      "nombres": "Angel",
+      "apellidos": "Albinagorta",
+      "email": "admin@gmail.com",
+      "direccion": "LIMA",
+      "celular": "878778787",
+      "id": 4
     }
   ]
 }
